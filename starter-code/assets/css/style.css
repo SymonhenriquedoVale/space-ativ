@@ -126,6 +126,12 @@ body {
   margin-bottom: 140px;
 }
 
+.text2 {
+  line-height: 1.9;
+  color: rgb(173, 178, 182);
+  margin-bottom: 140px;
+}
+
 .circle {
   display: inline-block;
   width: 10px; /* Tamanho do círculo */
