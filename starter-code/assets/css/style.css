@@ -208,3 +208,238 @@ body {
 .times {
   font-family: Bellefair;
 }
+
+.contain {
+  gap: 250px;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 300px;
+}
+
+.tex-meio {
+  color: rgb(173, 178, 182);
+  width: 400px;
+  line-height: 2;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 1500px) {
+  body {
+    font-size: 18px; /* Aumenta um pouco o tamanho da fonte */
+  }
+
+  .contain {
+    align-items: center;
+    margin-left: 40px; /* Ajuste sutil para centralizar melhor */
+    justify-content: center;
+  }
+
+  .cabecalho {
+    width: 600px; /* Ajuste para um tamanho maior */
+    align-items: center;
+    justify-content: center;
+  }
+
+  .linha {
+    width: 300px;
+    margin: 20px;
+  }
+
+  .simbolo {
+    margin-right: 10px; /* Pequena margem para evitar espaçamentos excessivos */
+  }
+
+  .lista {
+    width: 600px;
+    justify-content: center;
+    gap: 15px;
+    font-size: 14px;
+    padding: 20px;
+  }
+
+  .img-veic {
+    width: 400px;
+    height: 400px;
+    margin-left: 10px;
+  }
+
+  .contain2 {
+    justify-content: center;
+  }
+
+  .fotPilo {
+    width: 350px;
+    height: 350px;
+    margin-left: -100px; /* Pequena correção no alinhamento */
+  }
+
+  .text {
+    width: 350px;
+  }
+
+  .nome {
+    font-size: 2rem;
+  }
+
+  .lista-numer {
+    gap: 25px;
+    padding-right: 15px;
+    margin-top: -50px;
+  }
+
+  .lista-numer a {
+    font-size: 18px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .tex-meio {
+    font-size: 18px;
+    width: 350px;
+    line-height: 1.6;
+    padding-bottom: 25px;
+  }
+}
+
+/* Estilos para telas médias, como tablets */
+@media (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+
+  .contain {
+    align-items: center;
+    margin-left: 20px;
+    justify-content: center;
+  }
+
+  .cabecalho {
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .linha {
+    width: 200px;
+    margin: 15px;
+  }
+
+  .simbolo {
+    margin-right: 0px;
+  }
+
+  .lista {
+    width: 450px;
+    justify-content: center;
+    gap: 10px;
+    font-size: 12px;
+    padding: 15px;
+  }
+
+  .img-veic {
+    width: 300px;
+    height: 300px;
+    margin-left: 0px;
+  }
+
+  .contain2 {
+    justify-content: center;
+  }
+
+  .fotPilo {
+    width: 250px;
+    height: 250px;
+    margin-left: -150px;
+  }
+
+  .text {
+    width: 250px;
+  }
+
+  .nome {
+    font-size: 1.5rem;
+  }
+
+  .lista-numer {
+    gap: 20px;
+    padding-right: 10px;
+    margin-top: -60px;
+  }
+
+  .lista-numer a {
+    font-size: 15px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .tex-meio {
+    font-size: 15px;
+    width: 250px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  body {
+    font-size: 14px; /* Reduz o tamanho da fonte para melhor leitura */
+  }
+
+  .contain {
+    flex-direction: column; /* Organiza os itens em coluna */
+    align-items: center;
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .contain2 {
+    flex-direction: column; /* Organiza os itens em coluna */
+  }
+
+  .flexLinha {
+    align-items: left;
+    justify-content: left;
+  }
+
+  .lista {
+    width: 400px;
+  }
+
+  .lista a {
+    margin-left: 20px;
+    gap: 0px;
+    padding: 0px;
+  }
+
+  .linha {
+    display: none;
+  }
+
+  .linha2 {
+    display: none;
+  }
+
+  .simbolo {
+    margin-left: -90px;
+  }
+
+  .flexLinha {
+    gap: 50px;
+  }
+
+  .cabecalho {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 300px;
+  }
+
+  .contain {
+    display: grid;
+    justify-items: center;
+    height: 500px;
+  }
+
+  .fotPilo {
+    margin-top: -150px;
+  }
+}
